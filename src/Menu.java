@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Menu {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
+        //hola a todos
         Genero rock= new Genero(
                  "Rock",
                 "120bpm",
@@ -24,7 +25,7 @@ public class Menu {
         aniotemporal= sc.nextInt();
         rock.setAnio(aniotemporal);
         System.out.println("El nuevo anio de rock es: "+ rock.getAnio());
-        rap.setAnio(2020);
+        rap.setAnio(27020);
 
         System.out.println(rap.getAnio());
         System.out.println(rock.getAnio());
